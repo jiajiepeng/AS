@@ -40,7 +40,24 @@ online.}
 \section{Introduction}
 
 
-Text Text  Text Text Text Text Text Text. Figure~\ref{fig:01}
+In the post-genomic era, it is a crucial task for biomedical research to explore how different types of entities (such as disease, gene, phenotype, pathway et al) are related.
+%
+A researcher often requires a exhaustive understanding of possible indirect associations between related entities, which is the key to reveal the deeper biological mechanism behind the related entities~\citep{liekens2011biograph}. 
+%
+The development of experimental and computational techniques allows to construct interacting network of biomedical entities using high-throughput data~\citep{zhou2014human, barabasi2004network}.
+%
+Lots of networks including knowledge within or across domains are generated, like protein-protein interaction network~\citep{szklarczyk2014string}, disease-disease interaction network~\citep{menche2015uncovering}, disease-drug interaction network~\citep{hanlon2015alternative}, integrated network~\citep{peng2017predicting}. 
+%
+Given the fact that experimentally exploring association between entities is high cost and time consuming, these networks enable the use of network-based computational approaches to querying and working with the data as well as revealing how different entities are related.  
+
+Based on the availability of biomedical networks, various tools have been proposed to  identify the relations between biomedical entities. These tools can be loosely divided to two groups. One group is to predict whether two entities are related ignoring possible functional path between entities. Most methods in this group is based on the ''guilt-by-association" assumption to predict disease-gene association~\citep{wang2011network}, protein-protein interaction~\citep{baspinar2014prism}, drug-target interaction~\citep{pahikkala2014toward} and so on. 
+The other group of tools is to find a map of relations linking given entities in a biological network~\citep{liekens2011biograph}. Different with predicting new relations between biological entities, these tools provide a way to explain how two entities are functionally related based on the given network. In this paper, we focus on the problem of exploring how two biological entities are functionally related. 
+
+Currently, there are lots of methods 
+
+
+
+Figure~\ref{fig:01}
 shows that the above method  Text Text Text Text  Text Text Text
 Text Text Text  Text Text.  \citep{Bag01} wants to know about
 {\ldots}{\ldots} text follows.
@@ -555,38 +572,40 @@ This work has been supported by the... Text Text  Text Text.\vspace*{-12pt}
 %\bibliography{Document}
 
 
-\begin{thebibliography}{}
+%\begin{thebibliography}{}
 
-\bibitem[Bofelli {\it et~al}., 2000]{Boffelli03}
-Bofelli,F., Name2, Name3 (2003) Article title, {\it Journal Name}, {\bf 199}, 133-154.
+%\bibitem[Bofelli {\it et~al}., 2000]{Boffelli03}
+%Bofelli,F., Name2, Name3 (2003) Article title, {\it Journal Name}, {\bf 199}, 133-154.
 
-\bibitem[Bag {\it et~al}., 2001]{Bag01}
-Bag,M., Name2, Name3 (2001) Article title, {\it Journal Name}, {\bf 99}, 33-54.
+%\bibitem[Bag {\it et~al}., 2001]{Bag01}
+%Bag,M., Name2, Name3 (2001) Article title, {\it Journal Name}, {\bf 99}, 33-54.
 
-\bibitem[Yoo \textit{et~al}., 2003]{Yoo03}
-Yoo,M.S. \textit{et~al}. (2003) Oxidative stress regulated genes
-in nigral dopaminergic neurnol cell: correlation with the known
-pathology in Parkinson's disease. \textit{Brain Res. Mol. Brain
-Res.}, \textbf{110}(Suppl. 1), 76--84.
+%\bibitem[Yoo \textit{et~al}., 2003]{Yoo03}
+%Yoo,M.S. \textit{et~al}. (2003) Oxidative stress regulated genes
+%in nigral dopaminergic neurnol cell: correlation with the known
+%pathology in Parkinson's disease. \textit{Brain Res. Mol. Brain
+%Res.}, \textbf{110}(Suppl. 1), 76--84.
 
-\bibitem[Lehmann, 1986]{Leh86}
-Lehmann,E.L. (1986) Chapter title. \textit{Book Title}. Vol.~1, 2nd edn. Springer-Verlag, New York.
+%\bibitem[Lehmann, 1986]{Leh86}
+%Lehmann,E.L. (1986) Chapter title. \textit{Book Title}. Vol.~1, 2nd edn. Springer-Verlag, New York.
 
-\bibitem[Crenshaw and Jones, 2003]{Cre03}
-Crenshaw, B.,III, and Jones, W.B.,Jr (2003) The future of clinical
-cancer management: one tumor, one chip. \textit{Bioinformatics},
-doi:10.1093/bioinformatics/btn000.
+%\bibitem[Crenshaw and Jones, 2003]{Cre03}
+%Crenshaw, B.,III, and Jones, W.B.,Jr (2003) The future of clinical
+%cancer management: one tumor, one chip. \textit{Bioinformatics},
+%doi:10.1093/bioinformatics/btn000.
 
-\bibitem[Auhtor \textit{et~al}. (2000)]{Aut00}
-Auhtor,A.B. \textit{et~al}. (2000) Chapter title. In Smith, A.C.
-(ed.), \textit{Book Title}, 2nd edn. Publisher, Location, Vol. 1, pp.
-???--???.
+%\bibitem[Auhtor \textit{et~al}. (2000)]{Aut00}
+%Auhtor,A.B. \textit{et~al}. (2000) Chapter title. In Smith, A.C.
+%(ed.), \textit{Book Title}, 2nd edn. Publisher, Location, Vol. 1, pp.
+%???--???.
 
-\bibitem[Bardet, 1920]{Bar20}
-Bardet, G. (1920) Sur un syndrome d'obesite infantile avec
-polydactylie et retinite pigmentaire (contribution a l'etude des
-formes cliniques de l'obesite hypophysaire). PhD Thesis, name of
-institution, Paris, France.
+%\bibitem[Bardet, 1920]{Bar20}
+%Bardet, G. (1920) Sur un syndrome d'obesite infantile avec
+%polydactylie et retinite pigmentaire (contribution a l'etude des
+%formes cliniques de l'obesite hypophysaire). PhD Thesis, name of
+%institution, Paris, France.
 
-\end{thebibliography}
+%\end{thebibliography}
+\bibliographystyle{natbib}
+\bibliography{main}
 \end{document}
